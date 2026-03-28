@@ -25,10 +25,10 @@ Practicar:
 - Mejorar interacciones (hover, animaciones)
 
 ## 📸 Vista previa
-![alt text](/Calculadora/img/PracticaIphone.png)
+![alt text](img/Practicalphone.png)
 
 ## 📸 Vista imagen modelo
-![alt text](/Calculadora/img/imagenModelo.png)
+![alt text](img/imagenModelo.png)
 
 ## 💡 Aprendizajes clave
 - Importancia de la separación entre estructura y estilos
