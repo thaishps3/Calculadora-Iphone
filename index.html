@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="e">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Iphone</title>
+    <link rel="stylesheet" href="/Calculadora/css/style.css">
+</head>
+
+<!-- 
+Proyecto: Calculadora estilo iPhone
+
+Descripción:
+Este proyecto consiste en la maquetación de una calculadora inspirada en la interfaz de iOS.
+Está desarrollado únicamente con HTML y CSS.
+
+Alcance:
+- Diseño visual (no funcional)
+- Uso de Flexbox y Grid para layout
+- Aplicación de buenas prácticas en estructura y estilos
+- Simulación de interfaz móvil
+
+Estado:
+Actualmente es una versión estática sin lógica en JavaScript.
+
+Objetivo:
+Practicar maquetación, organización de código y replicación de interfaces reales.
+
+Autor: Thais
+Fecha: 2026
+Versión: 1.0
+
+-->
+
+
+<body>
+    <main>
+        <div class="cont-principal">
+            <!-- iconos superiores-->
+            <img class="movil" src="img/cabecera.jpg" alt="">
+
+            <!-- hamburguesa -->
+            <button class="hamburguesa">
+                <!-- <a href="https://www.flaticon.es/iconos-gratis/menu-abierto" title="menú abierto iconos">Menú abierto iconos creados por Pixel perfect - Flaticon</a> -->
+                <img src="img/menu.png" alt="" width="15px" height="15px">
+            </button>
+
+            <!-- pantalla cálculos -->
+            <div class="cont-operacion">
+                <div class="operacion">
+                    <span class="valor">1,000</span>
+                    <span class="unidad">CZX <img src="img/chevron.svg" alt=""></span>
+                </div>
+
+                <div class="bloqueLinea">
+                    <button class="swap">
+                        <img src="img/swap.svg" alt="" >
+                    </button>
+                    <div class="linea-horizontal"></div>
+                </div>
+
+                <div class="resultado">
+                    <span class="valor">309.21</span>
+                    <span class="unidad">GTQ <img src="img/chevron.svg" alt=""></span>
+                </div>
+
+            </div>
+            <!-- teclado numérico -->
+            <div class="botones">
+                <button class="funcion">
+                    <img src="img/borrar.svg" alt="">
+                </button>
+                <button class="funcion">±</button>
+                <button class="funcion">%</button>
+                <button class="operador">÷</button>
+
+                <button class="num">7</button>
+                <button class="num">8</button>
+                <button class="num">9</button>
+                <button class="operador">×</button>
+
+                <button class="num">4</button>
+                <button class="num">5</button>
+                <button class="num">6</button>
+                <button class="operador">−</button>
+
+                <button class="num">1</button>
+                <button class="num">2</button>
+                <button class="num">3</button>
+                <button class="operador">+</button>
+
+                <button class="num">
+                    <img src="img/calculadora.svg" alt="">
+                </button>
+
+                <button class="num">0</button>
+                <button class="num">.</button>
+                <button class="operador">=</button>
+            </div>
+            <div class="linea2"></div>
+        </div>
+    </main>
+</body>
+
+</html>
