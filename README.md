@@ -25,7 +25,7 @@ Practicar:
 - Mejorar interacciones (hover, animaciones)
 
 ## 📸 Vista previa
-![alt text](img/Practicalphone.png)
+![alt text](img/Practicaphone.png)
 
 ## 📸 Vista imagen modelo
 ![alt text](img/imagenModelo.png)
